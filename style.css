@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+:root {
+    --font-family: "Comfortaa", sans-serif;
+    --bg-color: #BEFFF7;
+    --primary-color: #6499E9;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4rem;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    color: var(--bg-color);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 20px ;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 2.5rem;
+        text-wrap: wrap;
+        padding: 0 1rem;
+    }
+
+    h2 {
+        text-wrap: wrap;
+        padding: 0 1rem;
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+        text-wrap: wrap;
+    }
+
+    .mensagem {
+        font-size: 1rem;
+    }
+
+    .box {
+        font-size: 2rem;
+        padding: 5px;
+    }
+}
